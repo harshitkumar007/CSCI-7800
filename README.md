@@ -32,13 +32,14 @@ Note: Make sure to have Python and Jupyter Notebook installed on your system.
 
 ## Dependencies
 
-- matplotlib==3.4.3
-- numpy==1.21.2
-- pandas==1.3.3
-- scikit-learn==0.24.2
-- seaborn==0.11.2
-- statsmodels==0.13.0
-- tensorflow==2.6.0
+-matplotlib==3.7.2
+-numpy==1.24.3
+-numpy==1.24.0
+-numpy==1.25.2
+-pandas==1.5.3
+-scikit_learn==1.2.2
+-seaborn==0.13.0
+-statsmodels==0.14
 
 
 

@@ -1,24 +1,50 @@
-# CSCI-7850
-# Stock Price Prediction Project
+# CSCI-7850 - Stock Price Prediction Project
 
-This project leverages deep learning techniques, specifically Gated Recurrent Unit (GRU) models, for accurate prediction of Google's stock prices based on historical market data. The repository comprises Jupyter Notebooks (GRU.ipynb), Python scripts (Plots.py, Stock.py), and datasets (Google_Stocks_Train.csv, Google_Stocks_Test.csv) used for model training and evaluation.
-
-
+This project employs deep learning techniques, specifically Gated Recurrent Unit (GRU) models, to predict Google's stock prices based on historical market data. It includes Jupyter Notebooks, Python scripts, and datasets used for model training and evaluation.
 
 ## Introduction
 
-This repository contains code and data related to stock price prediction for Google stocks. The primary aim is to explore different machine learning models, particularly GRU (Gated Recurrent Unit) models, for predicting stock prices based on historical data.
+This repository explores machine learning models, particularly GRU models, for accurate stock price prediction based on historical data. By leveraging deep learning techniques, the project aims to provide insights into Google's stock price trends.
 
 ## Files
 
-- **GRU.ipynb**: Jupyter Notebook containing code for implementing GRU models, training, and evaluation.
-- **Google_Stocks_Test.csv**: CSV file containing test data for Google stock prices.
+- **GRU.ipynb**: Jupyter Notebook containing code for implementing, training, and evaluating GRU models for stock price prediction.
+- **Google_Stocks_Test.csv**: CSV file with test data for Google stock prices.
 - **Google_Stocks_Train.csv**: CSV file containing training data for Google stock prices.
 - **Plots.py**: Python script with functions for generating various plots and visualizations related to stock price analysis.
 - **Stock.py**: Python script containing functions and classes for stock data processing and analysis.
 - **requirements.txt**: File listing all required dependencies and their versions for running the code.
 - **train_loss.csv**: CSV file recording training loss values during model training.
 - **val_loss.csv**: CSV file recording validation loss values during model training.
+
+## Project Structure
+
+The project directory is organized as follows:
+
+```
+stock_market_prediction/
+│
+├── GRU/
+│   ├── GRU.ipynb
+│   ├── Plots.py
+│   ├── Stock.py
+│   ├── Google_Stocks_Train.csv
+│   └── Google_Stocks_Test.csv
+├── train_loss.csv
+└── val_loss.csv
+```
+
+## Data Description
+
+Both `Google_Stocks_Train.csv` and `Google_Stocks_Test.csv` contain historical stock data for Google. Columns include 'Date', 'Open', 'High', 'Low', 'Close', 'Volume', and 'Adj Close'. The 'Adj Close' column was removed during preprocessing.
+
+## Methodology
+
+The GRU (Gated Recurrent Unit) model used in `GRU.ipynb` is a type of recurrent neural network (RNN) specialized for sequence modeling tasks. GRU's ability to retain long-term dependencies makes it suitable for time-series forecasting tasks like stock price prediction.
+
+## Results
+
+The project achieved promising results in stock price prediction accuracy, with the GRU model demonstrating robustness in capturing complex temporal patterns.
 
 ## Usage
 
@@ -28,20 +54,11 @@ To reproduce the analysis or run the code:
 2. Navigate to the project directory.
 3. Install the required dependencies: `pip install -r requirements.txt`
 4. Run the `GRU.ipynb` notebook to train and evaluate the GRU models.
-5. Use `Plots.py` and `Stock.py` scripts for additional analysis and visualization.
+5. Utilize `Plots.py` and `Stock.py` scripts for additional analysis and visualization.
 
-Note: Make sure to have Python and Jupyter Notebook installed on your system.
+Note: Ensure Python and Jupyter Notebook are installed on your system.
 
-## Dependencies
+## Future Improvements
 
--matplotlib==3.7.2
--numpy==1.24.3
--numpy==1.24.0
--numpy==1.25.2
--pandas==1.5.3
--scikit_learn==1.2.2
--seaborn==0.13.0
--statsmodels==0.14
-
-
+Potential enhancements include experimenting with different deep learning architectures, exploring additional features, and fine-tuning hyperparameters to improve model accuracy further.
 

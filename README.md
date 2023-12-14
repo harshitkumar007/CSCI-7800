@@ -1,13 +1,15 @@
 # CSCI-7850 - Stock Price Prediction Project
 
-This project employs deep learning techniques, specifically Gated Recurrent Unit (GRU) models, to predict Google's stock prices based on historical market data. It includes Jupyter Notebooks, Python scripts, and datasets used for model training and evaluation.
+This project employs deep learning techniques, specifically Gated Recurrent Unit (GRU) models, to predict Google's stock prices based on historical market data. 
+It includes Jupyter Notebooks, Python scripts, and datasets used for model training and evaluation.
 
 ## Introduction
 
 This repository explores machine learning models, particularly GRU models, for accurate stock price prediction based on historical data. By leveraging deep learning techniques, the project aims to provide insights into Google's stock price trends.
 
 ## Dataset
-This project utilizes historical stock market data for Google to train and evaluate the predictive models. The dataset includes both training and test data in CSV format.
+This project utilizes historical stock market data for Google to train and evaluate the predictive models. 
+The dataset includes both training and test data in CSV format.
 
 Google Stock Data
 Google_Stocks_Train.csv: Contains historical training data for Google stock prices.

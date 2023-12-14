@@ -6,6 +6,13 @@ This project employs deep learning techniques, specifically Gated Recurrent Unit
 
 This repository explores machine learning models, particularly GRU models, for accurate stock price prediction based on historical data. By leveraging deep learning techniques, the project aims to provide insights into Google's stock price trends.
 
+## Dataset
+This project utilizes historical stock market data for Google to train and evaluate the predictive models. The dataset includes both training and test data in CSV format.
+
+Google Stock Data
+Google_Stocks_Train.csv: Contains historical training data for Google stock prices.
+Google_Stocks_Test.csv: Consists of test data for Google stock prices.
+The data comprises various features and labels necessary for training and evaluating the predictive models.
 ## Files
 
 - **GRU.ipynb**: Jupyter Notebook containing code for implementing, training, and evaluating GRU models for stock price prediction.
